@@ -7,7 +7,10 @@ $baseDir = dirname($vendorDir);
 
 return array(
     'BaseController' => $baseDir . '/app/controllers/BaseController.php',
+    'Contacts' => $baseDir . '/app/models/Contacts.php',
+    'ContactsController' => $baseDir . '/app/controllers/ContactsController.php',
     'CreateContactsTable' => $baseDir . '/app/database/migrations/2013_02_06_090025_create_contacts_table.php',
+    'CreateTasksTable' => $baseDir . '/app/database/migrations/2013_02_06_140304_create_tasks_table.php',
     'HomeController' => $baseDir . '/app/controllers/HomeController.php',
     'Illuminate\\Auth\\AuthManager' => $baseDir . '/vendor/laravel/framework/src/Illuminate/Auth/AuthManager.php',
     'Illuminate\\Auth\\AuthServiceProvider' => $baseDir . '/vendor/laravel/framework/src/Illuminate/Auth/AuthServiceProvider.php',
